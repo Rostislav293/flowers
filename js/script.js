@@ -1,5 +1,5 @@
 // Масив зображень
-const images = ["../img/1-min.png", "../img/2-min.png", "../img/3-min.png", "../img/4-min.png", "../img/5-min.png"];
+const images = ["../img/1-min.jpg", "../img/2-min.jpg", "../img/3-min.jpg", "../img/4-min.jpg", "../img/5-min.jpg"];
 let currentIndex = 0; // Початковий індексg
 
 function updateImage() {

@@ -11,7 +11,7 @@
         <div class="container header-container">
             <div class="header-info">
                 <nav class="header-nav">
-                    <svg class="header-logo-svg" width="19" height="19">
+                    <svg class="header-logo-svg" width="25" height="25">
                     <use href="./img/icon-svg.svg#icon-logo-2"></use>
                 </svg>
                     <a class="header-logo" href="./index.html">thewatchspot</a>
@@ -38,7 +38,7 @@
             <div class="other">
                 <div class="gallery-container">
                     <div class="image-wrapper">
-                        <img id="main-image" src="./img/1-min.png" alt="Головне зображення" width="348" height="233">
+                        <img id="main-image" src="./img/1-min.jpg" alt="Головне зображення" width="348" height="233">
                     </div>
                     <div class="controls">
                         <button onclick="prevImage()"><svg class="icon-hrader" width="6" height="12">
@@ -182,7 +182,7 @@
                 <h2 class="sale-title">Sale</h2>
                 <div class="sale-list-list">
                     <ul class="sale-list">
-                        <li class="sale-item"><img src="./img/sale1-min.jpg" alt="sale" width="146" height="146"></li>
+                        <li class="sale-item"><img src="./img/sale5-min.jpg" alt="sale" width="146" height="146"></li>
                         <li class="sale-item"><img src="./img/sale2-min.jpg" alt="sale" width="146" height="146"></li>
                         <li class="sale-item"><img src="./img/sale3-min.jpg" alt="sale" width="146" height="146"></li>
                         <li class="sale-item"><img src="./img/sale4-min.jpg" alt="sale" width="146" height="146"></li>
@@ -281,25 +281,26 @@
         
 
         <!-- Вибраний годинник у вікні -->
-        <div class="modal-selected-watch">
-            <img id="modalWatchImg" src="" alt="Selected Watch" class="modal-watch-img" hidden>
-            <p id="modalWatchInfo">No watch selected</p>
-        </div>
-    
-        <label>Name:</label>
-        <input type="text" id="name" placeholder="Enter your name">
-        <p class="error" id="nameError">Please enter your name!</p>
-    
-        <label>Email:</label>
-        <input type="email" id="email" placeholder="Enter your email">
-        <p class="error" id="emailError">Enter a valid email!</p>
-    
-        <label>Card Number:</label>
-        <input type="text" id="card" placeholder="Enter card number">
-        <p class="error" id="cardError">Enter a valid 16-digit card number!</p>
-    
-        <button onclick="submitOrder()">Confirm Order</button>
-    </div>
+            <div class="modal-selected-watch">
+                <img id="modalWatchImg" src="" alt="Selected Watch" class="modal-watch-img" hidden>
+                <p id="modalWatchInfo">No watch selected</p>
+            </div>
+        
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <p class="error" id="nameError">Please enter your name!</p>
+        
+            <label>Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <p class="error" id="emailError">Enter a valid email!</p>
+        
+            <label>Card Number:</label>
+            <input type="text" id="card" placeholder="Enter card number">
+            <p class="error" id="cardError">Enter a valid 16-digit card number!</p>
+        
+            <button onclick="submitOrder()">Confirm Order</button>
+        </p>
+
 <script src="./js/script.js"></script> 
 </body>
 </html>
